@@ -230,8 +230,8 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
 
 (defcustom unicode-progress-reporter-type "Horizontal Blocks"
   "Type of spinner characters to use for progress-reporter."
-  :type `(choice ,@(mapcar '(lambda (x)
-                              (list 'const (car x)))
+  :type `(choice ,@(mapcar #'(lambda (x)
+                               (list 'const (car x)))
                            unicode-progress-reporter-pulse-characters))
   :initialize 'custom-initialize-default
   :set 'unicode-progress-reporter-redefine-spinner
