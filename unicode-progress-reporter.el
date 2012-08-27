@@ -66,6 +66,7 @@
 
 ;; for let*
 (eval-when-compile
+  (defvar unicode-progress-reporter-type)
   (require 'cl))
 
 (autoload 'ucs-utils-vector "ucs-utils" "Return a vector corresponding to SEQUENCE of UCS names or characters.")
