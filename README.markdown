@@ -25,3 +25,9 @@ Notes
 Redefines `progress-reporter-do-update`.
 
 Alters private variable `progress-reporter--pulse-characters`.
+
+Compatibility and Requirements
+------------------------------
+Tested only on GNU Emacs version 24.1
+
+Requires ucs-utils.el
