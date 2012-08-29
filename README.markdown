@@ -31,3 +31,5 @@ Compatibility and Requirements
 Tested only on GNU Emacs version 24.1
 
 Requires [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)
+
+Uses if present: [unicode-fonts.el](http://github.com/rolandwalker/unicode-fonts)
