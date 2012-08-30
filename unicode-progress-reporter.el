@@ -3,7 +3,8 @@
 ;; Copyright (c) 2012 Roland Walker
 ;;
 ;; Author: Roland Walker walker@pobox.com
-;; URL: https://github.com/rolandwalker/unicode-progress-reporter.el
+;; Homepage: http://github.com/rolandwalker/unicode-progress-reporter
+;; URL: http://raw.github.com/rolandwalker/unicode-progress-reporter/master/unicode-progress-reporter.el
 ;; Version: 0.5.2
 ;; Last-Updated: 27 Aug 2012
 ;; EmacsWiki: UnicodeProgressReporter
