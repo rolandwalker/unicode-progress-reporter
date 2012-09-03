@@ -230,7 +230,7 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
   :version "0.5.2"
   :link '(emacs-commentary-link "unicode-progress-reporter")
   :prefix "unicode-progress-reporter-"
-  :group 'extensions)
+  :group 'faces)
 
 (defcustom unicode-progress-reporter-type "Horizontal Blocks"
   "Type of spinner characters to use for progress-reporter."
