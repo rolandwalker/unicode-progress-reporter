@@ -28,7 +28,7 @@ Alters private variable `progress-reporter--pulse-characters`.
 
 Compatibility and Requirements
 ------------------------------
-Tested only on GNU Emacs version 24.1
+Requires GNU Emacs version 24.1 or above
 
 Requires [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)
 
