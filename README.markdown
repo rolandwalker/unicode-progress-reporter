@@ -1,9 +1,21 @@
 Overview
 ========
+
 Emacs progress reporter with fancy characters.
+
+Quickstart
+----------
+
+	(require 'unicode-progress-reporter)
+
+	(unicode-progress-reporter-setup)
+
+	;; to see a demo
+	(unicode-progress-reporter-test)
 
 unicode-progress-reporter
 -------------------------
+
 This is a trivial modification to Emacs' built-in progress
 reporter to display spinners using unicode characters.
 
@@ -16,18 +28,21 @@ find it, and add the following to your ~/.emacs file:
 
 See Also
 --------
+
 	M-x customize-group RET unicode-progress-reporter RET
 
 	(unicode-progress-reporter-test)
 
 Notes
 -----
+
 Redefines `progress-reporter-do-update`.
 
 Alters private variable `progress-reporter--pulse-characters`.
 
 Compatibility and Requirements
 ------------------------------
+
 Requires GNU Emacs version 24.1 or above
 
 Requires [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)

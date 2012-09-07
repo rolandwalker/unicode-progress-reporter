@@ -15,33 +15,44 @@
 ;;
 ;;; Commentary:
 ;;
+;; Quickstart
+;;
+;;     (require 'unicode-progress-reporter)
+;;
+;;     (unicode-progress-reporter-setup)
+;;
+;;     ;; to see a demo
+;;     (unicode-progress-reporter-test)
+;;
+;; Explanation
+;;
 ;; This is a trivial modification to Emacs' built-in progress
-;; reporter to display spinners using unicode characters.
+;; reporter to display spinners using Unicode characters.
 ;;
 ;; To use unicode-progress-reporter, place the
 ;; unicode-progress-reporter.el library somewhere Emacs can
 ;; find it, and add the following to your ~/.emacs file:
 ;;
-;;    (require 'unicode-progress-reporter)
-;;    (unicode-progress-reporter-setup)
+;;     (require 'unicode-progress-reporter)
+;;     (unicode-progress-reporter-setup)
 ;;
 ;; See Also
 ;;
-;;    M-x customize-group RET unicode-progress-reporter RET
+;;     M-x customize-group RET unicode-progress-reporter RET
 ;;
-;;    (unicode-progress-reporter-test)
+;;     (unicode-progress-reporter-test)
 ;;
 ;; Notes
 ;;
-;;    redefines `progress-reporter-do-update'
+;;     redefines `progress-reporter-do-update'
 ;;
-;;    alters private variable `progress-reporter--pulse-characters'
+;;     alters private variable `progress-reporter--pulse-characters'
 ;;
 ;; Compatibility and Requirements
 ;;
-;;    Requires GNU Emacs version 24.1 or above
+;;     Requires GNU Emacs version 24.1 or above
 ;;
-;;    Requires ucs-utils.el
+;;     Requires ucs-utils.el
 ;;
 ;; Bugs
 ;;
