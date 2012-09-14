@@ -78,10 +78,9 @@
 
 ;;; requires
 
-;; for let*
 (eval-when-compile
-  (defvar unicode-progress-reporter-type)
-  (require 'cl))
+  ;; declarations for byte compiler
+  (defvar unicode-progress-reporter-type))
 
 (autoload 'ucs-utils-vector "ucs-utils" "Return a vector corresponding to SEQUENCE of UCS names or characters.")
 (autoload 'ucs-utils-char   "ucs-utils" "Return the character corresponding to NAME, a UCS name.")
@@ -281,6 +280,7 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
 ;; mangle-whitespace: t
 ;; require-final-newline: t
 ;; coding: utf-8
+;; byte-compile-warnings: (not cl-functions)
 ;; End:
 ;;
 ;; LocalWords: UnicodeProgressReporter utils Oclock Ogham
