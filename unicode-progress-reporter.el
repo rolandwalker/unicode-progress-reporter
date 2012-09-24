@@ -255,8 +255,8 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
 
 (defun unicode-progress-reporter-test ()
   "Test unicode-progress-reporter."
-  (let ((reporter (make-progress-reporter "Testing... ")))
-    (dotimes (i 200)
+  (let ((reporter (make-progress-reporter (concat "Testing " unicode-progress-reporter-type "... "))))
+    (dotimes (i 100)
       (progress-reporter-update reporter)
       (sit-for .1))
     (progress-reporter-done reporter)))
