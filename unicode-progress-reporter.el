@@ -280,7 +280,7 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
 ;; mangle-whitespace: t
 ;; require-final-newline: t
 ;; coding: utf-8
-;; byte-compile-warnings: (not cl-functions)
+;; byte-compile-warnings: (not cl-functions redefine)
 ;; End:
 ;;
 ;; LocalWords: UnicodeProgressReporter utils Oclock Ogham
