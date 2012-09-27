@@ -8,12 +8,14 @@ Emacs progress reporter with fancy characters.
 Quickstart
 ----------
 
-	(require 'unicode-progress-reporter)
-
-	(unicode-progress-reporter-setup)
-
-	;; to see a demo
-	(unicode-progress-reporter-test)
+```lisp
+(require 'unicode-progress-reporter)
+ 
+(unicode-progress-reporter-setup)
+ 
+;; to see a demo
+(unicode-progress-reporter-test)
+```
 
 unicode-progress-reporter
 -------------------------
@@ -25,15 +27,19 @@ To use unicode-progress-reporter, place the
 unicode-progress-reporter.el library somewhere Emacs can
 find it, and add the following to your ~/.emacs file:
 
-	(require 'unicode-progress-reporter)
-	(unicode-progress-reporter-setup)
+```lisp
+(require 'unicode-progress-reporter)
+(unicode-progress-reporter-setup)
+```
 
 See Also
 --------
 
 	M-x customize-group RET unicode-progress-reporter RET
 
-	(unicode-progress-reporter-test)
+```lisp
+(unicode-progress-reporter-test)
+```
 
 Notes
 -----
