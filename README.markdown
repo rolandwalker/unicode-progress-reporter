@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/rolandwalker/unicode-progress-reporter.png)](http://travis-ci.org/rolandwalker/unicode-progress-reporter)
+
 Overview
 ========
 
