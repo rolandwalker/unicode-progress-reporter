@@ -8,7 +8,7 @@
 ;; Version: 0.5.3
 ;; Last-Updated: 14 Sep 2012
 ;; EmacsWiki: UnicodeProgressReporter
-;; Package-Requires: ((emacs "24.1.0") (ucs-utils "0.6.0") (persistent-soft "0.8.0") (pcache "0.2.3"))
+;; Package-Requires: ((emacs "24.1.0") (ucs-utils "0.6.0") (persistent-soft "0.8.6") (pcache "0.2.3"))
 ;; Keywords: interface
 ;;
 ;; GPLv3 License
