@@ -41,6 +41,7 @@
 
 (ert-deftest unicode-progress-reporter-02 nil
   :tags '(:interactive)
+  :expected-result (if (memq window-system '(mac)) :passed :failed)
   (should
    (progn
      (let ((cursor-in-echo-area t)
@@ -98,6 +99,7 @@
 
 (ert-deftest unicode-progress-reporter-05 nil
   :tags '(:interactive)
+  :expected-result (if (memq window-system '(mac)) :passed :failed)
   (should
    (progn
      (let ((cursor-in-echo-area t)
