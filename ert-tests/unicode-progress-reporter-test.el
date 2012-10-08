@@ -20,7 +20,7 @@
 
 ;;; interactive tests
 
-(ert-deftest unicode-progress-reporter-01 nil
+(ert-deftest unicode-progress-reporter-01:horizontal-blocks nil
   :tags '(:interactive)
   (should
    (progn
@@ -39,7 +39,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-02 nil
+(ert-deftest unicode-progress-reporter-02:moons nil
   :tags '(:interactive)
   :expected-result (if (memq window-system '(mac)) :passed :failed)
   (should
@@ -59,7 +59,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-03 nil
+(ert-deftest unicode-progress-reporter-03:vertical-blocks nil
   :tags '(:interactive)
   (should
    (progn
@@ -78,7 +78,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-04 nil
+(ert-deftest unicode-progress-reporter-04:vertical-counting-rods nil
   :tags '(:interactive)
   (should
    (progn
@@ -97,7 +97,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-05 nil
+(ert-deftest unicode-progress-reporter-05:clocks nil
   :tags '(:interactive)
   :expected-result (if (memq window-system '(mac)) :passed :failed)
   (should
@@ -117,7 +117,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-06 nil
+(ert-deftest unicode-progress-reporter-06:ogham-letters nil
   :tags '(:interactive)
   (should
    (progn
@@ -136,7 +136,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-07 nil
+(ert-deftest unicode-progress-reporter-07:horizontal-counting-rods nil
   :tags '(:interactive)
   (should
    (progn
@@ -155,7 +155,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-08 nil
+(ert-deftest unicode-progress-reporter-08:triangles nil
   :tags '(:interactive)
   (should
    (progn
@@ -174,7 +174,7 @@
      (unicode-progress-reporter-setup)
      (y-or-n-p "Did that work as expected?"))))
 
-(ert-deftest unicode-progress-reporter-09 nil
+(ert-deftest unicode-progress-reporter-09:ascii nil
   :tags '(:interactive)
   (should
    (progn
