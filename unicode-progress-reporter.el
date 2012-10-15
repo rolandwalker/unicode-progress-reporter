@@ -162,6 +162,7 @@
 
 ;;; utility functions
 
+;;;###autoload
 (defun unicode-progress-reporter-redefine-spinner (symbol value)
   "Set `progress-reporter--pulse-characters'.
 
@@ -244,6 +245,7 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
   :prefix "unicode-progress-reporter-"
   :group 'faces)
 
+;;;###autoload
 (defcustom unicode-progress-reporter-type "Horizontal Blocks"
   "Type of spinner characters to use for progress-reporter."
   :type `(choice ,@(mapcar #'(lambda (x)
