@@ -76,14 +76,15 @@
 ;;; Code:
 ;;
 
-;;; requires
-
-(eval-when-compile
-  ;; declarations for byte compiler
-  (defvar unicode-progress-reporter-type))
+;;; requirements
 
 (autoload 'ucs-utils-vector "ucs-utils" "Return a vector corresponding to SEQUENCE of UCS names or characters.")
 (autoload 'ucs-utils-char   "ucs-utils" "Return the character corresponding to NAME, a UCS name.")
+
+;;; declarations
+
+(eval-when-compile
+  (defvar unicode-progress-reporter-type))
 
 ;;; variables
 
