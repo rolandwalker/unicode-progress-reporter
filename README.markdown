@@ -17,11 +17,11 @@ Quickstart
 (unicode-progress-reporter-test)
 ```
 
-unicode-progress-reporter
--------------------------
+Explanation
+-----------
 
 This is a trivial modification to Emacs' built-in progress
-reporter to display spinners using unicode characters.
+reporter to display spinners using Unicode characters.
 
 To use unicode-progress-reporter, place the
 unicode-progress-reporter.el library somewhere Emacs can
@@ -36,10 +36,6 @@ See Also
 --------
 
 	M-x customize-group RET unicode-progress-reporter RET
-
-```lisp
-(unicode-progress-reporter-test)
-```
 
 Notes
 -----

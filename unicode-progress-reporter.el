@@ -40,8 +40,6 @@
 ;;
 ;;     M-x customize-group RET unicode-progress-reporter RET
 ;;
-;;     (unicode-progress-reporter-test)
-;;
 ;; Notes
 ;;
 ;;     redefines `progress-reporter-do-update'
