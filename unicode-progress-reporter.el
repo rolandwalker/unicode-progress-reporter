@@ -241,7 +241,7 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
   "Progress-reporter with fancy characters."
   :version "0.5.3"
   :link '(emacs-commentary-link :tag "Commentary" "unicode-progress-reporter")
-  :link '(url-link :tag "Github" "http://github.com/rolandwalker/unicode-progress-reporter")
+  :link '(url-link :tag "GitHub" "http://github.com/rolandwalker/unicode-progress-reporter")
   :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/UnicodeProgressReporter")
   :prefix "unicode-progress-reporter-"
   :group 'faces)
