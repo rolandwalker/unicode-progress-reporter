@@ -5,8 +5,8 @@
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/unicode-progress-reporter
 ;; URL: http://raw.github.com/rolandwalker/unicode-progress-reporter/master/unicode-progress-reporter.el
-;; Version: 0.5.3
-;; Last-Updated: 14 Sep 2012
+;; Version: 0.5.4
+;; Last-Updated:  6 Nov 2013
 ;; EmacsWiki: UnicodeProgressReporter
 ;; Package-Requires: ((emacs "24.1.0") (ucs-utils "0.7.6") (persistent-soft "0.8.8") (pcache "0.2.3"))
 ;; Keywords: interface
@@ -239,7 +239,7 @@ VALUE should be a key in `unicode-progress-reporter-pulse-characters'."
 ;;;###autoload
 (defgroup unicode-progress-reporter nil
   "Progress-reporter with fancy characters."
-  :version "0.5.3"
+  :version "0.5.4"
   :link '(emacs-commentary-link :tag "Commentary" "unicode-progress-reporter")
   :link '(url-link :tag "GitHub" "http://github.com/rolandwalker/unicode-progress-reporter")
   :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/UnicodeProgressReporter")
