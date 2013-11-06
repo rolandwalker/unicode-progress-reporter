@@ -1,6 +1,6 @@
 ;;; unicode-progress-reporter.el --- Progress-reporter with fancy characters
 ;;
-;; Copyright (c) 2012 Roland Walker
+;; Copyright (c) 2012-13 Roland Walker
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/unicode-progress-reporter
