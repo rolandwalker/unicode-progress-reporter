@@ -4,7 +4,7 @@
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/unicode-progress-reporter
-;; URL: http://raw.github.com/rolandwalker/unicode-progress-reporter/master/unicode-progress-reporter.el
+;; URL: http://raw.githubusercontent.com/rolandwalker/unicode-progress-reporter/master/unicode-progress-reporter.el
 ;; Version: 0.5.4
 ;; Last-Updated:  6 Nov 2013
 ;; EmacsWiki: UnicodeProgressReporter
