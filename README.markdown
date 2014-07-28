@@ -31,7 +31,7 @@ find it, and add the following to your ~/.emacs file:
 
 ## See Also
 
-	M-x customize-group RET unicode-progress-reporter RET
+<kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>unicode-progress-reporter</kbd> <kbd>RET</kbd>
 
 ## Notes
 
