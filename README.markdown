@@ -1,12 +1,10 @@
 [![Build Status](https://secure.travis-ci.org/rolandwalker/unicode-progress-reporter.png?branch=master)](http://travis-ci.org/rolandwalker/unicode-progress-reporter)
 
-Overview
-========
+# Overview
 
 Emacs progress reporter with fancy characters.
 
-Quickstart
-----------
+## Quickstart
 
 ```elisp
 (require 'unicode-progress-reporter)
@@ -17,8 +15,7 @@ Quickstart
 (unicode-progress-reporter-test)
 ```
 
-Explanation
------------
+## Explanation
 
 This is a trivial modification to Emacs' built-in progress
 reporter to display spinners using Unicode characters.
@@ -32,20 +29,17 @@ find it, and add the following to your ~/.emacs file:
 (unicode-progress-reporter-setup)
 ```
 
-See Also
---------
+## See Also
 
 	M-x customize-group RET unicode-progress-reporter RET
 
-Notes
------
+## Notes
 
 Redefines `progress-reporter-do-update`.
 
 Alters private variable `progress-reporter--pulse-characters`.
 
-Compatibility and Requirements
-------------------------------
+## Compatibility and Requirements
 
 	GNU Emacs version 24.4-devel     : yes, at the time of writing
 	GNU Emacs version 24.3           : yes
