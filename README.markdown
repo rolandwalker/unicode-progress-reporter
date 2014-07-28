@@ -8,7 +8,7 @@ Emacs progress reporter with fancy characters.
 Quickstart
 ----------
 
-```lisp
+```elisp
 (require 'unicode-progress-reporter)
  
 (unicode-progress-reporter-setup)
@@ -27,7 +27,7 @@ To use unicode-progress-reporter, place the
 unicode-progress-reporter.el library somewhere Emacs can
 find it, and add the following to your ~/.emacs file:
 
-```lisp
+```elisp
 (require 'unicode-progress-reporter)
 (unicode-progress-reporter-setup)
 ```
