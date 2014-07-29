@@ -21,8 +21,8 @@ This is a trivial modification to Emacs' built-in progress
 reporter to display spinners using Unicode characters.
 
 To use unicode-progress-reporter, place the
-unicode-progress-reporter.el library somewhere Emacs can
-find it, and add the following to your ~/.emacs file:
+`unicode-progress-reporter.el` library somewhere Emacs can
+find it, and add the following to your `~/.emacs` file:
 
 ```elisp
 (require 'unicode-progress-reporter)
