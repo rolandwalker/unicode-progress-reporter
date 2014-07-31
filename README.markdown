@@ -4,6 +4,12 @@
 
 Emacs progress reporter with fancy characters.
 
+ * [Quickstart](#quickstart)
+ * [Explanation](#explanation)
+ * [See Also](#see-also)
+ * [Notes](#notes)
+ * [Compatibility and Requirements](#compatibility-and-requirements)
+
 ## Quickstart
 
 ```elisp
@@ -31,7 +37,7 @@ find it, and add the following to your `~/.emacs` file:
 
 ## See Also
 
-* <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>unicode-progress-reporter</kbd> <kbd>RET</kbd>
+ * <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>unicode-progress-reporter</kbd> <kbd>RET</kbd>
 
 ## Notes
 
